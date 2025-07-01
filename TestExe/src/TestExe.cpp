@@ -4,11 +4,13 @@
 //#include "../../TestLib/src/framework.h"
 #include "testlib.h"
 #include "testdll.h"
+#include <fmt/base.h>
 
 int main()
 {
 	testlib::print("Test .lib");
 	print("Test .dll");
+	fmt::print("Test fmt\n");
 }
 
-// TODO vcpkg, tests
+// TODO vcpkg, tests, res
